@@ -1,0 +1,68 @@
+/* RESET */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* RESET */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.text-input {
+  width: 360px;
+  padding: 8px 16px 8px 16px;
+  outline: 0;
+  outline-offset: 0;
+  border: 1px solid #2e2f42;
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
